@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native'
 import { Searchbar } from 'react-native-paper';
-import { colors } from '../utils/theme/colors';
-import { family, size } from '../utils/theme/sizes';
+import { colors } from '../utils/theme';
+import { family, size } from '../utils/sizes';
 import Shadow from '../helpers/Shadow';
 
 const CustomTextInput = ({ onChangeSearch, searchQuery }) => {

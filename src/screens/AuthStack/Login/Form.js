@@ -3,7 +3,7 @@ import {TouchableOpacity, View, Text} from 'react-native';
 import {Formik} from 'formik';
 import CustomInput from '../../../components/CustomInput';
 import {ValidationSchema} from './Validation';
-import {colors} from '../../../utils/theme/colors';
+import {colors} from '../../../utils/theme';
 
 const LoginForm = ({submit}) => {
   const form = useRef(null);

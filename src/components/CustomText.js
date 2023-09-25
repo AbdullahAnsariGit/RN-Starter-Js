@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Text } from 'react-native';
-import { family, size } from '../utils/theme/sizes';
-import { colors } from '../utils/theme/colors';
 
 const CustomText = ({
     text = '',
     size = 16,
     style = {},
-    font = family.SP_Regular,
+    font = 'SofiaProMedium',
     onPress = undefined,
     colors = '#000000',
     expandable = false,

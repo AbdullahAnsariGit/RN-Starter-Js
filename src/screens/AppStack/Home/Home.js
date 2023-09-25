@@ -1,6 +1,6 @@
 import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import React, {useState} from 'react';
-import {colors} from '../../../utils/theme/colors';
+import {colors} from '../../../utils/theme';
 import {useDispatch} from 'react-redux';
 import {logoutUser} from '../../../redux/actions/authAction';
 import Popup from '../../../containers/Popup/Popup';

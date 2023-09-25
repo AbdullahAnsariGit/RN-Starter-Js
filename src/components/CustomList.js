@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { colors } from '../utils/theme/colors'
+import { colors } from '../utils/theme'
 import Shadow from '../helpers/Shadow'
 import CustomText from './CustomText'
-import { family, size } from '../utils/theme/sizes'
+import { family, size } from '../utils/sizes'
 import LinearGradient from 'react-native-linear-gradient'
 
 const CustomList = ({ item }) => {

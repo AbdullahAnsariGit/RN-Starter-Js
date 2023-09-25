@@ -1,11 +1,16 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import CustomContainer from '../../../components/CustomContainer'
 
 const Details = () => {
   return (
-    <View>
-      <Text>Details</Text>
-    </View>
+    <CustomContainer
+      children={
+        <View>
+          <Text style={{ color: '#ffff' }}>Text</Text>
+        </View>
+      }
+    />
   )
 }
 
