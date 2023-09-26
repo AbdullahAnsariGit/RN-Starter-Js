@@ -26,6 +26,7 @@ const LoginForm = ({submit}) => {
               value={values?.email}
               onBlur={handleBlur('email')}
               placeholder="Email"
+              keyboardType="email-address"
               onChangeText={handleChange('email')}
               error={errors?.email}
             />
@@ -40,7 +41,11 @@ const LoginForm = ({submit}) => {
           </View>
           <TouchableOpacity
             onPress={handleSubmit}
-            style={{backgroundColor: 'blue', padding: 20, marginHorizontal:20}}>
+            style={{
+              backgroundColor: 'blue',
+              padding: 20,
+              marginHorizontal: 20,
+            }}>
             <Text style={{color: colors?.white}}>Login</Text>
           </TouchableOpacity>
         </View>

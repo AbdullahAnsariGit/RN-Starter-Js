@@ -14,8 +14,8 @@ export default function AppNavigation() {
           headerShown: false,
           animation: 'slide_from_right',
         }}
-        initialRouteName="MyTabs">
-        <Stack.Screen name="MyTabs" component={MyTabs} />
+        initialRouteName="Home">
+        <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Details" component={Details} />
       </Stack.Navigator>
     </NavigationContainer>

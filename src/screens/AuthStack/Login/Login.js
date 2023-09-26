@@ -1,7 +1,7 @@
-import {Alert, StyleSheet, Text, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 import React from 'react';
 import LoginForm from './Form';
-import {useDispatch, useSelector} from 'react-redux';
+import {useDispatch} from 'react-redux';
 import {loginUser} from '../../../redux/actions/authAction';
 const Login = () => {
   const disPatch = useDispatch();
