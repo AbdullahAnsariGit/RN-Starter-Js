@@ -5,7 +5,7 @@ import {useSelector} from 'react-redux';
 import AuthNavigation from './src/navigation/AuthNavigation';
 
 const App = () => {
-  const isLogin = useSelector(state => state?.authReducer?.isUserLogin);
+  const isLogin = useSelector(state => state?.auth?.isUserLogin);
   console.log('🚀 ~ file: App.js:11 ~ App ~ isLogin:', isLogin);
   return isLogin == false ? <AuthNavigation /> : <AppNavigation />;
 };
