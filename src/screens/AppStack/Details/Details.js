@@ -14,7 +14,7 @@ import {fetchUserData} from '../../../redux/actions/userAction';
 import {colors} from '../../../utils/theme';
 import {fetchPosts} from '../../../redux/actions/postAction';
 import CustomInput from '../../../components/CustomInput';
-
+import Icon from 'react-native-vector-icons/Ionicons';
 const Details = () => {
 
 
@@ -41,6 +41,7 @@ const Details = () => {
       children={
         <View>
           <Text style={{color: '#000'}}>Text</Text>
+          <Icon name="accessibility" size={20} color="#4F8EF7"/>
         </View>
       }
     />

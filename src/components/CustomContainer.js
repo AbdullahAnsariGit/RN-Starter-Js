@@ -1,12 +1,18 @@
 import React from 'react';
-import {StyleSheet, View, ImageBackground, Text, Dimensions} from 'react-native';
+import {
+  StyleSheet,
+  View,
+  ImageBackground,
+  Text,
+  Dimensions,
+} from 'react-native';
 import {bg} from '../assets/images';
 import CustomText from './CustomText';
 import {family, size} from '../utils/sizes';
 import {colors} from '../utils/theme';
 import CustomLoader from './CustomLoader';
 import {useSelector} from 'react-redux';
-const {height} = Dimensions.get('window')
+const {height} = Dimensions.get('window');
 
 const CustomContainer = ({children}) => {
   const loader = useSelector(state => state?.user?.loading);
@@ -39,7 +45,7 @@ const styles = StyleSheet.create({
   },
   backgroundImage: {
     // flex: 1,
-    height:height,
+    height: height,
     resizeMode: 'cover',
   },
 });
