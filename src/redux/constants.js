@@ -8,3 +8,8 @@ export const FETCH_USER_DATA_ERROR = 'FETCH_USER_DATA_ERROR';
 export const FETCH_POSTS_BEGIN = 'FETCH_POSTS_BEGIN';
 export const FETCH_POSTS_SUCCESS = 'FETCH_POSTS_SUCCESS';
 export const FETCH_POSTS_FAILURE = 'FETCH_POSTS_FAILURE';
+export const Add_Todo = 'Add_Todo'
+export const Delete_Todo = 'Delete_Todo'
+export const Edit_Todo = 'Edit_Todo'
+
+
